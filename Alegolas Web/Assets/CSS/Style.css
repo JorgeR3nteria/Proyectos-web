@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.10em;
+    background:linear-gradient(lightsteelblue,cornsilk, lightslategrey);
+    position: sticky;
+    overflow-x: hidden;
+  }
+  
+  /* Menu container */
+  .menu {
+    width: 100vw;
+    background: linear-gradient(#203031, lightslategrey, lightsteelblue);
+    font-family: fantasy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  ul li {
+    padding: 2px 40px 0;
+    list-style: none;
+    font-size: 24px;
+    color: cornsilk;
+    display: inline-flex;
+  }
+  
+  /* Menu */
+  .container {
+    max-width: 100%;
+    text-transform: inherit;
+    text-align: justify;
+    overflow-wrap: break-word;
+  }
+
+  .icon-nav{
+    width: 46px;
+  }
+  
+  /* Slider Menu */
+  .slider-menu {
+    width: 80vw;
+    height: 500px;
+    border-radius: 2%;
+    background-color: #303031;
+    display: flex;
+    text-transform: capitalize;
+  }
+  
+  .slider-menu figure > img {
+    width: 220px;
+    margin: 0;
+    padding: 0;
+    border: 5px solid steelblue;
+    max-width: 800px;
+  }
+  
+  .slider-menu figcaption {
+    background-color: #303031;
+  }
+  
+  /* Footer */
+footer {
+  background: linear-gradient(lightslategrey, #27313c);
+  color: lightblue;
+  text-align: center;
+  padding: 10px 38%;
+}
+
+footer > p {
+  color: cornsilk;
+}
+
+hr{
+  margin: 0 auto; /* Ajuste el margen para centrar el hr */
+  background: lightsteelblue;
+  border-radius: 5px;
+}
+
+/* Contenedor para las imágenes */
+.icon-container {
+  display: inline-block;
+}
+
+/* Estilos de las imágenes */
+.icon-social {
+  width: 50px;
+}
